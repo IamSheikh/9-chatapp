@@ -15,13 +15,6 @@ const Home = () => {
       <Header />
       <div>
         <h1>Home</h1>
-        <button
-          onClick={() => {
-            signOut(auth);
-          }}
-        >
-          Logout
-        </button>
       </div>
     </>
   );
